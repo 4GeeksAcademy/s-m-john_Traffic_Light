@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.traffic-light {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.red {
+    background: red;
+}
