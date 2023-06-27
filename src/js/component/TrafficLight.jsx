@@ -1,13 +1,18 @@
 import React from 'react';
-import {TRAFFIC_LIGHT_COLORS } from '../component/home.jsx'
 
 export default function TrafficLight(props) {
 
-    const ()
+    const { trafficLightColor, activeColor } = props;
 
-    return(
-        <div className="traffic-light">
+    const isActive = activeColor === trafficLightColor ? 'active-traffic-light' : '';
+    
+    return (
+        <div className={`
+        traffic-light 
+        ${trafficLightColor}
+        ${isActive}
+        `}>
         
         </div>
-    )
+    );
 }
